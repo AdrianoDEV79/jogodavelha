@@ -1,0 +1,83 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    text-align: center;
+    background-image: url(../img/fondo.jpg);
+}
+
+.stage{
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    width: 320px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.tab{
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    background-color: black;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+.x{
+    position: relative;
+}
+.o:after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.button{
+    padding: 15px;
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+span{
+    color: green;    
+}
