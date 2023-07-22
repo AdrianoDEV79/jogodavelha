@@ -4,7 +4,7 @@
 
 body{
     text-align: center;
-    background-image: url("./img/fondo.jpg");
+    background-image: url(../img/fondo.jpg);
 }
 
 .stage{
