@@ -31,6 +31,7 @@ body{
     padding: 10px;
     border-radius: 20px;
     margin-top: 30px;
+    margin: auto;
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
     gap: 10px;
@@ -92,4 +93,24 @@ body{
     border-radius: 10px;
     background-color: orangered;
     margin-top: 15px;
+}
+
+@media (max-width:500px) {
+    #gameBoard{
+        gap: 5px;
+        margin-top: 50px;
+    }
+    .card{
+        width: 75px;
+        height: 75px;
+    }
+
+    .title{
+        font-size: 1.6em;
+    }
+
+    .text-over{
+        font-size: 1.2em;
+        text-align: center;
+    }
 }
